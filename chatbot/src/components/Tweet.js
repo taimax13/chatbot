@@ -17,9 +17,9 @@ export default function CreateTweet({ addTweet }) {
     }
 
 
-    return (<div><textarea className="tweettext" value={text} placeholder="what you have in mind" onChange={inputHandler}>
+    return (<div><textarea  value={text} placeholder="what you have in mind" onChange={inputHandler}>
         
-    </textarea><button className="tweetbtn" onClick={createTweet} >Tweet</button></div>);
+    </textarea><button  onClick={createTweet} >Tweet</button></div>);
 }
 
 
